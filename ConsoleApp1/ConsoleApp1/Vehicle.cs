@@ -22,7 +22,7 @@ namespace ConsoleApp1
                 _millage = value;
             }
         }
-        public string ShowInfo()
+        public virtual string ShowInfo()
         {
             return $"Reng: {this.Color} Marka: {this.Brand} Yurus: {this._millage}km";
         }

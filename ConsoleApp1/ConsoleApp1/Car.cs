@@ -46,6 +46,11 @@ namespace ConsoleApp1
                 _fuelConsumption = value;
             }
         }
+
+        public override string ShowInfo()
+        {
+            return base.ShowInfo() + $" Maksimum yanacaq miqdari: {FuelCapasity}L";
+        }
         public override void Drive(double km)
         {
             double UsedFuel = (km * FuelConsumption)/100;
