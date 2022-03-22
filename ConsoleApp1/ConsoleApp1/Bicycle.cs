@@ -10,5 +10,10 @@ namespace ConsoleApp1
         {
             Millage += km;
         }
+
+        public override string ShowInfo()
+        {
+            return base.ShowInfo();
+        }
     }
 }
